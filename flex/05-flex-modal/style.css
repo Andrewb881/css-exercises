@@ -2,6 +2,19 @@
 
 html, body {
   height: 100%;
+  
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  flex-shrink: 3;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+.icon {
+  min-width: 38px;
+  margin-right: 10px;
 }
 
 body {
@@ -20,6 +33,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 20px;
+  
 }
 
 .icon {
@@ -60,6 +76,7 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-top: 20px;
 }
 
 button.cancel {
