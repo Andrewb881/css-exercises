@@ -6,6 +6,36 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+.header {
+  display: flex;
+  
+}
+.footer {
+  display: flex;
+  margin-top: 250px;
+  background-color: #eeeeee;
+}
+ul {
+  list-style: none;
+}
+
+.left-links {
+  display:flex;
+  gap: 10px;
+}
+.right-links {
+  display:flex;
+  margin-left:auto;
+  gap: 10px;
+  padding-right:50px;
+}
 
 img {
   width: 600px;
